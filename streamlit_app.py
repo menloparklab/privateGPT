@@ -78,11 +78,11 @@ def retrieve_documents(query: str, collection_name: str):
     if response.status_code == 200:
         result = response.json()
         st.subheader("Results")
-        st.text(result["results"])
+        st.markdown(result["results"])
         
         st.subheader("Documents")
-        for doc in result["docs"]:
-            st.text(doc)
+        for index, doc in enumerate(result["docs"], start=1):
+            st.text_area(label=f"Document {index}", value=doc)
     else:
         st.error("Failed to retrieve documents.")
         st.write(response.text)
