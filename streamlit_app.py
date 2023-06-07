@@ -78,7 +78,7 @@ def retrieve_documents(query: str, collection_name: str):
     if response.status_code == 200:
         result = response.json()
         st.subheader("Results")
-        st.text_area(label="", value=result["results"])
+        st.markdown(result["results"])
         
         st.subheader("Documents")
         for index, doc in enumerate(result["docs"], start=1):
