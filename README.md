@@ -2,18 +2,6 @@
 
 This repository contains a FastAPI backend and Streamlit app for PrivateGPT, an application built by [imartinez](https://github.com/imartinez). The PrivateGPT App provides an interface to privateGPT, with options to embed and retrieve documents using a language model and an embeddings-based retrieval system. All data remains local. 
 
-Easiest way to deploy:
-
-Deploy Full App on Railway
-
-[![Deploy Full App on Railway](https://railway.app/button.svg)](https://railway.app/template/UGRfDo?referralCode=63H2w2)
-
-Deploy Backend on Railway
-
-[![Deploy Backend on Railway](https://railway.app/button.svg)](https://railway.app/template/kbkd4w?referralCode=63H2w2)
-
-__Developer plan__ will be needed to make sure there is enough memory for the app to run.
-
 ## Requirements
 
 - Python 3.11 or later

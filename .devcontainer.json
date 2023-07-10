@@ -1,0 +1,21 @@
+{
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+				"mohsen1.prettify-json",
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"ms-python.flake8",
+				"ms-python.pylint",
+				"eamodio.gitlens",
+				"GitHub.copilot"
+			]
+        }
+    },
+    "forwardPorts": [
+        3000
+    ]
+}
